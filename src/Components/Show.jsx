@@ -51,7 +51,7 @@ function Actor() {
                             return (
                               <div className="col-md-3 mb-3">
                                 <div className="card">
-                                  <a href={element.show.url} target="_blank">
+                                  <a href={element.show.url} target="_blank" rel="noreferrer">
                                   {element.show.image ? (
                                     <img
                                       src={element.show.image.medium}
