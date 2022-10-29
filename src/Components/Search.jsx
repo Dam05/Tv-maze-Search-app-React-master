@@ -22,8 +22,8 @@ const Search = () => {
                 <div className="container">
                         <div className="row mt-3">
                         <div className="col-md-7">
-                            <input type="radio" name="movie" onChange={() => setActorFilter()} /> <strong style={{fontSize:"20px", color:'whitesmoke'}}> By Actor </strong>   &nbsp;  &nbsp;
-                            <input type="radio" name="movie" onChange={() => setShowFilter()} className="ms-3" /> <strong style={{fontSize:"20px" , color:'whitesmoke'}}> By Shows </strong>
+                            <input type="radio" name="movie" onChange={() => setActorFilter()} /> <strong style={{fontSize:"20px", color:'green'}}> By Actor </strong>   &nbsp;  &nbsp;
+                            <input type="radio" name="movie" onChange={() => setShowFilter()} className="ms-3" /> <strong style={{fontSize:"20px" , color:'green'}}> By Shows </strong>
                         </div>
                     </div>
                     {/* <div className="row mt-3">
